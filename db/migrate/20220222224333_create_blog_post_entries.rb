@@ -1,4 +1,4 @@
-class CreateBlogPostEntries < ActiveRecord::Migration
+class CreateBlogPostEntries < ActiveRecord::Migration[5.2]
   def change
     create_table :blog_post_entries do |t|
       t.string :content
